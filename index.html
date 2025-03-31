@@ -46,318 +46,320 @@
             </div>
         </div>
     </nav>
-
-    <div id="carouselImg" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carouselImg" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselImg" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselImg" data-bs-slide-to="2"></li>
-        </ol>
-
-        <div class="carousel-inner p-2">
-            <div class="carousel-item active">
-                <img src="https://media.istockphoto.com/id/1254871777/photo/modern-minimalist-family-villa.webp?a=1&b=1&s=612x612&w=0&k=20&c=jh9BiVRnvxs_bm2UIlHdxOLpNl5kwOq9nxKOUAATBqc=" class="d-block w-100 rounded" style="object-fit: cover; height: 35rem;" alt="House in the Forrest"/>
-                <div class="carousel-caption">
-                    <h1>House in the Forrest</h1>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    <main class="mt-4">
+        <div id="carouselImg" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselImg" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselImg" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselImg" data-bs-slide-to="2"></li>
+            </ol>
+    
+            <div class="carousel-inner p-2">
+                <div class="carousel-item active">
+                    <img src="https://media.istockphoto.com/id/1254871777/photo/modern-minimalist-family-villa.webp?a=1&b=1&s=612x612&w=0&k=20&c=jh9BiVRnvxs_bm2UIlHdxOLpNl5kwOq9nxKOUAATBqc=" class="d-block w-100 rounded" style="object-fit: cover; height: 35rem;" alt="House in the Forrest"/>
+                    <div class="carousel-caption">
+                        <h1>House in the Forrest</h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/688830/pexels-photo-688830.jpeg?auto=compress&cs=tinysrgb&w=400" class="d-block w-100 rounded filterContrast" style="object-fit: cover; height: 35rem;" alt="Autumn"/>
+                    <div class="carousel-caption">
+                        <h1>Autumn</h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/id/1556245500/photo/tulips-and-windmill.jpg?b=1&s=612x612&w=0&k=20&c=QGxe63Jt23sbwG1PwBd3KtSVezXEscwdr9ugo7FhJlA=" class="d-block w-100 rounded" style="object-fit: cover; height: 35rem;" alt="Tulips"/>
+                    <div class="carousel-caption">
+                        <h1>Tulips</h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://images.pexels.com/photos/688830/pexels-photo-688830.jpeg?auto=compress&cs=tinysrgb&w=400" class="d-block w-100 rounded filterContrast" style="object-fit: cover; height: 35rem;" alt="Autumn"/>
-                <div class="carousel-caption">
-                    <h1>Autumn</h1>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://media.istockphoto.com/id/1556245500/photo/tulips-and-windmill.jpg?b=1&s=612x612&w=0&k=20&c=QGxe63Jt23sbwG1PwBd3KtSVezXEscwdr9ugo7FhJlA=" class="d-block w-100 rounded" style="object-fit: cover; height: 35rem;" alt="Tulips"/>
-                <div class="carousel-caption">
-                    <h1>Tulips</h1>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselImg" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselImg" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselImg" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselImg" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="container gallery-container"> 
-        <!-- Filter Buttons -->
-        <div class="row mb-4 justify-content-center">
-            <div class="col-auto">
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-primary active" data-filter="all">All</button>
-                    <button type="button" class="btn btn-outline-primary" data-filter="nature">Nature</button>
-                    <button type="button" class="btn btn-outline-primary" data-filter="cities">Cities</button>
-                    <button type="button" class="btn btn-outline-primary" data-filter="people">People</button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Gallery Grid -->
-        <div class="row" id="gallery-grid" data-masonry='{"percentPosition": true}'>
-            <!-- Images will be dynamically inserted here -->
-        </div>
-    </div>
-    <section class="container py-5">
-        <h2 class="text-center mb-5 display-4 fw-bold">Meet Our Creative Team</h2>
-        <div class="row g-4">
-            <div class="col-lg-4">
-                <div class="card border-0 text-center h-100 shadow-sm hover-effect">
-                    <div class="card-body p-4">
-                        <div class="mx-auto mb-4" style="width: 180px; height: 180px;">
-                            <img src="https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=400" class="img-fluid rounded-circle w-100 h-100 object-fit-cover shadow" alt="Thandi Khumalo"/>
-                        </div>
-                        <h3 class="h4">Thandi Khumalo</h3>
-                        <p class="text-muted mb-3">Portrait & Wedding Photography Specialist</p>
-                        <p class="mb-4">Capturing life's most precious moments with artistic precision and emotional depth.</p>
-                        <div class="social-links mb-3">
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-behance"></i></a>
-                        </div>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">View Portfolio</a>
+    
+        <div class="container gallery-container"> 
+            <!-- Filter Buttons -->
+            <div class="row mb-4 justify-content-center">
+                <div class="col-auto">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary active" data-filter="all">All</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="nature">Nature</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="cities">Cities</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="people">People</button>
                     </div>
                 </div>
             </div>
             
-            <div class="col-lg-4">
-                <div class="card border-0 text-center h-100 shadow-sm hover-effect">
-                    <div class="card-body p-4">
-                        <div class="mx-auto mb-4" style="width: 180px; height: 180px;">
-                            <img src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=400" class="img-fluid rounded-circle w-100 h-100 object-fit-cover shadow" alt="John Doe"/>
-                        </div>
-                        <h3 class="h4">John Doe</h3>
-                        <p class="text-muted mb-3">Wildlife & Nature Photography Expert</p>
-                        <p class="mb-4">Bringing the beauty of the natural world to life through stunning visual storytelling.</p>
-                        <div class="social-links mb-3">
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-behance"></i></a>
-                        </div>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">View Portfolio</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4">
-                <div class="card border-0 text-center h-100 shadow-sm hover-effect">
-                    <div class="card-body p-4">
-                        <div class="mx-auto mb-4" style="width: 180px; height: 180px;">
-                            <img src="https://images.pexels.com/photos/25457108/pexels-photo-25457108/free-photo-of-brunette-wearing-bra-and-blazer.jpeg" class="img-fluid rounded-circle w-100 h-100 object-fit-cover shadow" alt="Sally Smith"/>
-                        </div>
-                        <h3 class="h4">Sally Smith</h3>
-                        <p class="text-muted mb-3">Fashion & Editorial Photographer</p>
-                        <p class="mb-4">Creating bold, innovative imagery that pushes creative boundaries in fashion.</p>
-                        <div class="social-links mb-3">
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="text-decoration-none mx-2"><i class="fab fa-behance"></i></a>
-                        </div>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">View Portfolio</a>
-                    </div>
-                </div>
+            <!-- Gallery Grid -->
+            <div class="row" id="gallery-grid" data-masonry='{"percentPosition": true}'>
+                <!-- Images will be dynamically inserted here -->
             </div>
         </div>
-    </section>
-
-    <section class="container">
-        <h2 class="text-center mb-5 display-4 fw-bold">What Our Clients Say</h2>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card testimonial-card h-100 shadow-sm">
-                    <div class="card-body p-4">
-                        <div class="d-flex align-items-center mb-3">
-                            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400" class="rounded-circle testimonial-img me-3" alt="Client">
-                            <div>
-                                <h5 class="mb-0">Michael Johnson</h5>
-                                <small class="text-muted">Wedding Client</small>
+        <section class="container py-5">
+            <h2 class="text-center mb-5 display-4 fw-bold">Meet Our Creative Team</h2>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card border-0 text-center h-100 shadow-sm hover-effect">
+                        <div class="card-body p-4">
+                            <div class="mx-auto mb-4" style="width: 180px; height: 180px;">
+                                <img src="https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=400" class="img-fluid rounded-circle w-100 h-100 object-fit-cover shadow" alt="Thandi Khumalo"/>
                             </div>
+                            <h3 class="h4">Thandi Khumalo</h3>
+                            <p class="text-muted mb-3">Portrait & Wedding Photography Specialist</p>
+                            <p class="mb-4">Capturing life's most precious moments with artistic precision and emotional depth.</p>
+                            <div class="social-links mb-3">
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-behance"></i></a>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-pill px-4">View Portfolio</a>
                         </div>
-                        <p class="card-text">"The team captured our wedding day perfectly. Every photo tells a story and brings back the emotions of that special day. Highly recommended!"</p>
-                        <div class="text-warning">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card border-0 text-center h-100 shadow-sm hover-effect">
+                        <div class="card-body p-4">
+                            <div class="mx-auto mb-4" style="width: 180px; height: 180px;">
+                                <img src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=400" class="img-fluid rounded-circle w-100 h-100 object-fit-cover shadow" alt="John Doe"/>
+                            </div>
+                            <h3 class="h4">John Doe</h3>
+                            <p class="text-muted mb-3">Wildlife & Nature Photography Expert</p>
+                            <p class="mb-4">Bringing the beauty of the natural world to life through stunning visual storytelling.</p>
+                            <div class="social-links mb-3">
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-behance"></i></a>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-pill px-4">View Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card border-0 text-center h-100 shadow-sm hover-effect">
+                        <div class="card-body p-4">
+                            <div class="mx-auto mb-4" style="width: 180px; height: 180px;">
+                                <img src="https://images.pexels.com/photos/25457108/pexels-photo-25457108/free-photo-of-brunette-wearing-bra-and-blazer.jpeg" class="img-fluid rounded-circle w-100 h-100 object-fit-cover shadow" alt="Sally Smith"/>
+                            </div>
+                            <h3 class="h4">Sally Smith</h3>
+                            <p class="text-muted mb-3">Fashion & Editorial Photographer</p>
+                            <p class="mb-4">Creating bold, innovative imagery that pushes creative boundaries in fashion.</p>
+                            <div class="social-links mb-3">
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-decoration-none mx-2"><i class="fab fa-behance"></i></a>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-pill px-4">View Portfolio</a>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="col-md-4">
-                <div class="card testimonial-card h-100 shadow-sm">
-                    <div class="card-body p-4">
-                        <div class="d-flex align-items-center mb-3">
-                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" class="rounded-circle testimonial-img me-3" alt="Client">
-                            <div>
-                                <h5 class="mb-0">Sarah Williams</h5>
-                                <small class="text-muted">Portrait Client</small>
+        </section>
+    
+        <section class="container">
+            <h2 class="text-center mb-5 display-4 fw-bold">What Our Clients Say</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400" class="rounded-circle testimonial-img me-3" alt="Client">
+                                <div>
+                                    <h5 class="mb-0">Michael Johnson</h5>
+                                    <small class="text-muted">Wedding Client</small>
+                                </div>
                             </div>
-                        </div>
-                        <p class="card-text">"I've never felt so comfortable in front of a camera. The results were stunning - they really captured my personality in the photos."</p>
-                        <div class="text-warning">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <p class="card-text">"The team captured our wedding day perfectly. Every photo tells a story and brings back the emotions of that special day. Highly recommended!"</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div class="card testimonial-card h-100 shadow-sm">
-                    <div class="card-body p-4">
-                        <div class="d-flex align-items-center mb-3">
-                            <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400" class="rounded-circle testimonial-img me-3" alt="Client">
-                            <div>
-                                <h5 class="mb-0">David Chen</h5>
-                                <small class="text-muted">Commercial Client</small>
+                
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" class="rounded-circle testimonial-img me-3" alt="Client">
+                                <div>
+                                    <h5 class="mb-0">Sarah Williams</h5>
+                                    <small class="text-muted">Portrait Client</small>
+                                </div>
                             </div>
-                        </div>
-                        <p class="card-text">"The product photography for our e-commerce site exceeded expectations. Our conversion rates improved by 30% after updating our product images."</p>
-                        <div class="text-warning">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
+                            <p class="card-text">"I've never felt so comfortable in front of a camera. The results were stunning - they really captured my personality in the photos."</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container py-5" id="features">
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="feature-heading">First featured item. <span class="text-muted">It'll blow your mind</span></h2>
-                <p class="lead">Our advanced editing techniques bring out the true essence of every photograph, enhancing colors and details while maintaining natural authenticity.</p>
-                <ul class="list-unstyled">
-                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Professional color grading</li>
-                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Detail enhancement</li>
-                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Natural skin retouching</li>
-                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Background optimization</li>
-                </ul>
-                <a href="#" class="btn btn-primary mt-3">Learn more about our process</a>
-            </div>
-            <div class="col-md-5">
-                <img src="https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded shadow" alt="Editing Process" style="max-height: 400px; width: 100%; object-fit: cover;"/>
-            </div>
-        </div>
-
-        <hr class="section-divider"/>
-
-        <div class="row">
-            <div class="col-md-7 order-md-2">
-                <h2 class="feature-heading">Second featured item. <span class="text-muted">It'll blow your mind</span></h2>
-                <p class="lead">Our state-of-the-art equipment ensures crystal clear images in any lighting condition, from bright sunlight to dimly lit interiors.</p>
-                <div class="row mt-4">
-                    <div class="col-6">
-                        <h5 class="fw-bold">Equipment</h5>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-camera text-primary me-2"></i> Canon EOS R5</li>
-                            <li><i class="fas fa-camera text-primary me-2"></i> Sony A7R IV</li>
-                            <li><i class="fas fa-video text-primary me-2"></i> 4K Video</li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <h5 class="fw-bold">Lenses</h5>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-search text-primary me-2"></i> 24-70mm f/2.8</li>
-                            <li><i class="fas fa-search text-primary me-2"></i> 70-200mm f/2.8</li>
-                            <li><i class="fas fa-search text-primary me-2"></i> 85mm f/1.2</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <img src="https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded shadow" alt="Camera Equipment" style="max-height: 400px; width: 100%; object-fit: cover;"/>
-            </div>
-        </div>
-
-        <hr class="section-divider"/>
-
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="feature-heading">Third featured item. <span class="text-muted">It'll blow your mind</span></h2>
-                <p class="lead">We offer professional printing services on premium materials to bring your photographs to life in stunning quality.</p>
-                <div class="row mt-4">
-                    <div class="col-md-6 mb-3">
-                        <div class="card border-0 shadow-sm h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-image text-primary me-2"></i> Fine Art Prints</h5>
-                                <p class="card-text">Museum-quality prints on archival paper that last generations.</p>
+                
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400" class="rounded-circle testimonial-img me-3" alt="Client">
+                                <div>
+                                    <h5 class="mb-0">David Chen</h5>
+                                    <small class="text-muted">Commercial Client</small>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="card border-0 shadow-sm h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-images text-primary me-2"></i> Photo Books</h5>
-                                <p class="card-text">Custom designed albums to preserve your memories beautifully.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="card border-0 shadow-sm h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-border-all text-primary me-2"></i> Canvas Wraps</h5>
-                                <p class="card-text">Gallery-wrapped canvases ready to hang in your home.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="card border-0 shadow-sm h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-desktop text-primary me-2"></i> Digital Files</h5>
-                                <p class="card-text">High-resolution files for sharing and printing.</p>
+                            <p class="card-text">"The product photography for our e-commerce site exceeded expectations. Our conversion rates improved by 30% after updating our product images."</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-5">
-                <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded shadow" alt="Printed Photos" style="max-height: 400px; width: 100%; object-fit: cover;"/>
-            </div>
-        </div>
-    </section>
-
-    <section class="newsletter-section" id="contact">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="display-5 fw-bold mb-4">Subscribe to Our Newsletter</h2>
-                    <p class="lead mb-5">Get the latest photography tips, exclusive offers, and updates on our workshops and exhibitions.</p>
-                    <form class="row g-3 justify-content-center">
-                        <div class="col-md-8">
-                            <input type="email" class="form-control form-control-lg" placeholder="Your email address">
-                        </div>
-                        <div class="col-md-4">
-                            <button type="submit" class="btn btn-primary btn-lg w-100">Subscribe</button>
-                        </div>
-                        <div class="col-12">
-                            <small class="text-muted">We'll never share your email. Unsubscribe at any time.</small>
-                        </div>
-                    </form>
+        </section>
+    
+        <section class="container py-5" id="features">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">First featured item. <span class="text-muted">It'll blow your mind</span></h2>
+                    <p class="lead">Our advanced editing techniques bring out the true essence of every photograph, enhancing colors and details while maintaining natural authenticity.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Professional color grading</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Detail enhancement</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Natural skin retouching</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Background optimization</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary mt-3">Learn more about our process</a>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded shadow" alt="Editing Process" style="max-height: 400px; width: 100%; object-fit: cover;"/>
                 </div>
             </div>
-        </div>
-    </section>
+    
+            <hr class="section-divider"/>
+    
+            <div class="row">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="feature-heading">Second featured item. <span class="text-muted">It'll blow your mind</span></h2>
+                    <p class="lead">Our state-of-the-art equipment ensures crystal clear images in any lighting condition, from bright sunlight to dimly lit interiors.</p>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <h5 class="fw-bold">Equipment</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-camera text-primary me-2"></i> Canon EOS R5</li>
+                                <li><i class="fas fa-camera text-primary me-2"></i> Sony A7R IV</li>
+                                <li><i class="fas fa-video text-primary me-2"></i> 4K Video</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="fw-bold">Lenses</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-search text-primary me-2"></i> 24-70mm f/2.8</li>
+                                <li><i class="fas fa-search text-primary me-2"></i> 70-200mm f/2.8</li>
+                                <li><i class="fas fa-search text-primary me-2"></i> 85mm f/1.2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded shadow" alt="Camera Equipment" style="max-height: 400px; width: 100%; object-fit: cover;"/>
+                </div>
+            </div>
+    
+            <hr class="section-divider"/>
+    
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">Third featured item. <span class="text-muted">It'll blow your mind</span></h2>
+                    <p class="lead">We offer professional printing services on premium materials to bring your photographs to life in stunning quality.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <div class="card border-0 shadow-sm h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-image text-primary me-2"></i> Fine Art Prints</h5>
+                                    <p class="card-text">Museum-quality prints on archival paper that last generations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card border-0 shadow-sm h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-images text-primary me-2"></i> Photo Books</h5>
+                                    <p class="card-text">Custom designed albums to preserve your memories beautifully.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card border-0 shadow-sm h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-border-all text-primary me-2"></i> Canvas Wraps</h5>
+                                    <p class="card-text">Gallery-wrapped canvases ready to hang in your home.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card border-0 shadow-sm h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-desktop text-primary me-2"></i> Digital Files</h5>
+                                    <p class="card-text">High-resolution files for sharing and printing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded shadow" alt="Printed Photos" style="max-height: 400px; width: 100%; object-fit: cover;"/>
+                </div>
+            </div>
+        </section>
+    
+        <section class="newsletter-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="display-5 fw-bold mb-4">Subscribe to Our Newsletter</h2>
+                        <p class="lead mb-5">Get the latest photography tips, exclusive offers, and updates on our workshops and exhibitions.</p>
+                        <form class="row g-3 justify-content-center">
+                            <div class="col-md-8">
+                                <input type="email" class="form-control form-control-lg" placeholder="Your email address">
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary btn-lg w-100">Subscribe</button>
+                            </div>
+                            <div class="col-12">
+                                <small class="text-muted">We'll never share your email. Unsubscribe at any time.</small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
 
     <footer class="footer-section">
         <div class="container">
